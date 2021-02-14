@@ -43,8 +43,14 @@ public class App {
                 // OutPut Encoded text
                 System.out.println("The plain text is : " );
 
+            } else if (choice.equals("Exit")) {
+                System.out.println("Goodbye , thank you .");
+                theAppIsRunning = false;
+            }
+            else {
+
+            }
             }
         }
-
     }
 }
