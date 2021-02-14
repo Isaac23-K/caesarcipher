@@ -23,6 +23,8 @@ public class App {
         int key = Integer.parseInt(inputKey.nextLine());
         System.out.println("Your shift key is : " + key );
 
+        // Output encoded text
+        System.out.println("Your cipher text is : ");
     }
     }
 }
