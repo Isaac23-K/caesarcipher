@@ -30,6 +30,10 @@ public class App {
             } else if (choice.equals("Decode")){
                 // Types in the coded texts
                 Scanner cipherInput =  new Scanner(System.in);
+                System.out.println("Enter the coded text : ");
+                String cipherText = cipherInput.nextLine();
+                System.out.println("The original plain text is : " + cipherText);
+
 
             }
         }
