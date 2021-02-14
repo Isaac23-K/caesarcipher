@@ -34,6 +34,14 @@ public class App {
                 String cipherText = cipherInput.nextLine();
                 System.out.println("The original plain text is : " + cipherText);
 
+                // Enter shift key or number
+                Scanner cipherInPut = new Scanner(System.in);
+                System.out.println("What is your shift key : ");
+                int shift = Integer.parseInt("");
+                System.out.println("The shift key is : " + shift);
+
+                // OutPut Encoded text
+                System.out.println("The plain text is : " );
 
             }
         }
