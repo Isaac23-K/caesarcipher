@@ -48,7 +48,7 @@ public class App {
                 theAppIsRunning = false;
             }
             else {
-
+System.out.println("Invalid choice please try again !");
             }
             }
         }
