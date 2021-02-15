@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.util.Scanner;
-import java.io.IOException;
 
 public class App {
     public static void main(String[] args) throws IOException {
@@ -24,11 +23,11 @@ public class App {
                 // enter shift key or number
                 Scanner inputKey = new Scanner(System.in);
                 System.out.println("Your shift key is : ");
-                int key = Integer.parseInt(inputKey.nextLine());
+                int key = Integer.parseInt((inputKey.nextLine()));
                 System.out.println("Your shift key is : " + key);
 
                 // Output encoded text
-                System.out.println("Your cipher text is : ");
+                System.out.println("Your cipher text is : " + Encode.encoding((plainText) , key));
 
             } else if (choice.equals("Decode")){
                 // Types in the coded texts
@@ -46,7 +45,7 @@ public class App {
                 // OutPut Encoded text
                 System.out.println("The plain text is : " );
 
-            } else if (choice.equals("Exit")) {
+            } else if (choice.equals("Leave")) {
                 System.out.println("Goodbye , thank you .");
                 theAppIsRunning = false;
             }

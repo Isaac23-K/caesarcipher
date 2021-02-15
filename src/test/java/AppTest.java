@@ -1,10 +1,10 @@
-import org.junit.*;
 import org.junit.jupiter.api.Test;
+
 
 public class AppTest {
     @Test
-    public void runLetter_enCodeLetter_shiftLetter(){
-       int shit = 1;
+    public void  testEncoding_testWord_String(){
+        Encode testEncode = new Encode();
 
     }
 }

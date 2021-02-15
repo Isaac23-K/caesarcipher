@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-15T04:52:52" hostname="isaac-HP-EliteBook-840-G1" time="0.029">
+  <properties/>
+  <testcase name="testEncoding_testWord_String()" classname="AppTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
