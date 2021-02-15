@@ -2,7 +2,7 @@ public class Encode {
 
     public static StringBuffer encoding(String plainText, int key){
 
-        //Encrypt the text
+        //Encode the text
         StringBuffer encode = new StringBuffer();
         for (int i = 0; i < plainText.length(); i++){
 
@@ -22,7 +22,5 @@ public class Encode {
         return encode;
 
     }
-
-
 
 }
