@@ -34,24 +34,24 @@ public class App {
                 Scanner cipherInput =  new Scanner(System.in);
                 System.out.println("Enter the coded text : ");
                 String cipherText = cipherInput.nextLine();
-                System.out.print("The original plain text is : " + cipherText);
+                System.out.println("The original plain text is : " + cipherText);
 
                 // Enter shift key or number
                 Scanner cipherInPut = new Scanner(System.in);
                 System.out.println("What is your shift key : ");
-                int shift = Integer.parseInt("");
+                int shift = Integer.parseInt((cipherInPut.nextLine()));
                 System.out.println("The shift key is : " + shift);
 
                 // OutPut Encoded text
-                System.out.println("The plain text is : " );
+                System.out.println("The plain text is : " + Decode.decoding((cipherText), shift));
 
             } else if (choice.equals("Leave")) {
                 System.out.println("Goodbye , thank you .");
                 theAppIsRunning = false;
+            } else {
+                System.out.println("Invalid choice please try again !");
             }
-            else {
-System.out.println("Invalid choice please try again !");
-            }
+
             }
         }
     }
