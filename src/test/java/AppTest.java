@@ -11,6 +11,7 @@ public class AppTest {
 
     @Test
     public void decodeTest_testWord_String(){
+
         Decode decodeTest = new Decode();
     }
 }
